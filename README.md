@@ -29,6 +29,6 @@ None found as of now. If there's any, please start an issue [here](https://githu
 	- Only syntax highlighting is done + SPL Constants Highlighting.
 	- SPL Constants done.
 	- Autoindent + Autoclosing pairs done.
-	Can be Downloaded from [here](releases/0.0.1/spl-nitc-vscode-support-0.0.1.vsix "Version 0.0.1")
+Can be Downloaded from [here](releases/0.0.1/spl-nitc-vscode-support-0.0.1.vsix "Version 0.0.1")
 
 **Enjoy!**
