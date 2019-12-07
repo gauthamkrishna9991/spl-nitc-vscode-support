@@ -1,0 +1,27 @@
+{
+    "name": "spl-nitc-vscode-support",
+    "displayName": "SPL (NITC) Language Support",
+    "description": "Language Support for the Systems Programming Language (SPL-NITC) for EXpOS.",
+    "publisher" : "gauthamkrishna9991",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.39.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "spl-nitc",
+            "aliases": ["Systems Programming Language (NITC)", "spl-nitc"],
+            "extensions": [".spl"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "spl-nitc",
+            "scopeName": "source.spl",
+            "path": "./syntaxes/spl-nitc.tmLanguage.json"
+        }]
+    },
+    "repository": "https://github.com/gauthamkrishna9991/spl-nitc-vscode-support.git"
+}
